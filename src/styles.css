@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+body {
+    margin: 0;
+}
+
+.App {
+font-family: Poppins;
+text-align: center;
+}
+
+.hero-section {
+    background: cornflowerblue;
+    height: 320px;
+}
+
+.services-section {
+    background: firebrick;
+    height: 320px;
+}
+
+.footer-section {
+    background: goldenrod;
+    height: 200px;
+}
