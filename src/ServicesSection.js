@@ -4,13 +4,15 @@ export default function ServiceSection() {
             <h2>
                 Our Services
             </h2>
-
+            <div className="services-outer-container">
             <div className="services-container">
+                
             <div className="service-block">
                 <img src="https://assets.codepen.io/6060109/agency-service-1.png" alt="service 1"></img>
             </div>
             <div className="service-block"></div>
             <div className="service-block"></div>
+            </div>
             </div>
         </div>
     );
