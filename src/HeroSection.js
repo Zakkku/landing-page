@@ -7,7 +7,7 @@ export default function HeroSection() {
                 <p>Subscribe</p>
             </nav>
             <h2>
-                We do websites right
+                modern websites and cutting edge software
             </h2>
         </div>
     );
