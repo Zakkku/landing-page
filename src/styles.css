@@ -5,6 +5,49 @@
     padding: 0;
   }
 
+  .translucent-element {
+    transition: opacity 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .translucent-element:hover {
+    opacity: 0.8; 
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  input[type="text"] {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    width: 240px;
+    display: block;
+    margin: 20px auto;
+    padding: 5px 0;
+    color: white;
+  }
+
+  input[type="text"]::placeholder {
+   text-align: center;
+   color: rgba(255,255,255,.5);
+  }
+
+  input[type="text"]:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+  }
+
+  input[type="submit"] {
+    color:#806c6c;
+    border-radius: 0;
+    border: none;
+    padding: 7px 20px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
 
 nav {
     display: flex;
@@ -35,6 +78,7 @@ text-transform: uppercase;
     left: 50%;
     transform: translateX(-50%);
     top: 40%;
+    width: 600px;
 }
 
 .services-section {
@@ -76,9 +120,39 @@ text-transform: uppercase;
     margin: 0;
     text-align: left;
     color: #806c6c;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .footer-section {
-    background: goldenrod;
-    height: 200px;
+    background-color:#133588;
+    height: 300px;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.footer-section > h2 {
+    width: 370px;
+    margin: auto;
+    color: white;
+}
+
+@media only screen and (max-width: 550px) {
+   
+    .hero-section > h2 {
+        width: 90%;
+    }
+    
+    .services-container {
+        
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .service-block {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    
 }
