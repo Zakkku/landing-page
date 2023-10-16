@@ -40,12 +40,14 @@
   }
 
   input[type="submit"] {
-    color:#806c6c;
-    border-radius: 0;
+    color:#133588;
+    border-radius: 15px;
     border: none;
     padding: 7px 20px;
     font-weight: bold;
     font-size: 18px;
+    background-color: white;
+    cursor: pointer;
   }
 
 
@@ -112,14 +114,15 @@ text-transform: uppercase;
 
 .service-block img {
     width: 100%;
-    
+    border-radius: 10px;
+    border: 2px solid #133588;
     
 }
 
 .service-block p {
     margin: 0;
     text-align: left;
-    color: #806c6c;
+    color: #133588;
     font-weight: bolder;
     font-size: 20px;
 }
