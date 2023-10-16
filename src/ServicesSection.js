@@ -1,3 +1,5 @@
+import ServiceBlock from "./ServiceBlock";
+
 const SERVICE_BLOCK_DATA = [
     {
         imgURL: 'https://assets.codepen.io/6060109/agency-service-1.png',
@@ -25,15 +27,12 @@ export default function ServiceSection() {
             <div className="services-outer-container">
             <div className="services-container">
                {
-                SERVICE_BLOCK_DATA.map(block => {
-                    return (
-                        <div className="service-block">
-            <               img src={block.imgURL} alt={block.alt}></img>
-                            <p>{block.text}</p>
-                        </div>
+                SERVICE_BLOCK_DATA.map(block => (
+                    <ServiceBlock block={block} />
+                )
+                    
                     )
-                })
-               }                 
+            }                            
             </div>
             </div>
         </div>
