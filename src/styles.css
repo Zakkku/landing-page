@@ -58,6 +58,8 @@ nav {
 
 nav > p {
     padding: 10px 14px;
+    font-weight: bolder;
+    font-size: 18px;
 }
 
 .App {
@@ -81,6 +83,7 @@ text-transform: uppercase;
     transform: translateX(-50%);
     top: 40%;
     width: 600px;
+    font-size: 50px;
 }
 
 .services-section {
@@ -140,10 +143,12 @@ text-transform: uppercase;
     color: white;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
    
     .hero-section > h2 {
         width: 90%;
+        font-size: 40px;
+        top: 55%;
     }
     
     .services-container {

@@ -27,8 +27,8 @@ export default function ServiceSection() {
             <div className="services-outer-container">
             <div className="services-container">
                {
-                SERVICE_BLOCK_DATA.map(block => (
-                    <ServiceBlock block={block} />
+                SERVICE_BLOCK_DATA.map(item => (
+                    <ServiceBlock block={item} />
                 )
                     
                     )
