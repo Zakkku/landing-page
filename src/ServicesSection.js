@@ -8,10 +8,19 @@ export default function ServiceSection() {
             <div className="services-container">
                 
             <div className="service-block">
-                <img src="https://assets.codepen.io/6060109/agency-service-1.png" alt="service 1"></img>
+            <img src="https://assets.codepen.io/6060109/agency-service-1.png" alt="service 1"></img>
+                <p>web development</p>
             </div>
-            <div className="service-block"></div>
-            <div className="service-block"></div>
+            <div className="service-block">
+            <img src="https://assets.codepen.io/6060109/agency-service-2.png" alt="service 2"></img>
+            <p>cloud computing</p>
+            </div>
+            
+            <div className="service-block">
+            <img src="https://assets.codepen.io/6060109/agency-service-3.png" alt="service 3"></img>
+            <p>smart contracts</p>
+            </div>
+            
             </div>
             </div>
         </div>
